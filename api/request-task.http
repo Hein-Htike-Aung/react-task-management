@@ -1,0 +1,29 @@
+### Create Task
+POST http://localhost:3000/task
+Content-Type: application/json
+
+{
+    "title": "TaskTitle3",
+    "description": "TaskDescription"
+}
+
+
+### Get all Tasks
+GET http://localhost:3000/task
+
+
+### Get By id
+GET http://localhost:3000/task/2
+
+
+### Update by id
+PATCH http://localhost:3000/task/21
+Content-Type: application/json
+
+{
+    "title": "updatedsadfsdaf",
+    "description": "TaskDescription2"
+}
+
+### Delete Task
+DELETE http://localhost:3000/task/14
